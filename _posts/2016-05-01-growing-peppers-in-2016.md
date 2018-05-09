@@ -10,6 +10,7 @@ In this year I only grow in dirt because I had no time for preparing my drip buc
 
 Unfortunatly I have no pictures from growing the seedlings to the current size. But I toke some pictures today after moving the plants in their smart bags.
 
-[gallery link="file" ids="428,427"]
+{% include image.html path="/images/2016/05/" img="all_peppers" type="jpg" desc="Overview of all smart bags" %}
+{% include image.html path="/images/2016/05/" img="pepper_single" type="jpg" desc="Single pepper" %}
 
 The plants are now three months old and they are producing the second blooms. The first blooms were cut to allow the plant putting all their energy into growing. Now I have to watch the weather forecast and if we get a cold night I have to take the smart bags into the garage temporarely.
