@@ -2,7 +2,7 @@
 layout: post
 title: "Nano Cube LED Beleuchtung"
 date: 2015-05-01 15:30:09 +0200
-categories: electronic
+categories: electronics
 ---
 Da ich noch einige 3W LEDs auf Sternplatinen von einer Chinabestellung übrig hatte, habe ich mich an den Bau einer LED-Beleuchtung für meinen Nano Cube gemacht. 
 

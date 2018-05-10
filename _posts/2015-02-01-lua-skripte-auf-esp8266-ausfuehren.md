@@ -2,7 +2,7 @@
 layout: post
 title: "LUA Skripte auf ESP8266 ausführen"
 date: 2015-02-01 11:53:26 +0200
-categories: electronic
+categories: electronics
 ---
 Nach der Installation von NodeMcu besteht nun die Möglichkeit, ganze LUA Skript-Dateien auf dem ESP-01 Modul abzulegen. Das Ganze soll hier kurz anhand eines kleinen Testskriptes gezeigt werden. 
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Getting NodeMCU running on a ESP-01 module in 2016"
 date: 2016-01-24 13:41:00 +0200
-categories: electronic
+categories: electronics
 ---
 # Introduction
 I tried to install NodeMCU with the help of my article from january 2015, but had some problems to do so. So I write a new article with a new approach, which works today. I also try to provide all new informations in englisch, because my site statistics say most of my visitors came from EU.

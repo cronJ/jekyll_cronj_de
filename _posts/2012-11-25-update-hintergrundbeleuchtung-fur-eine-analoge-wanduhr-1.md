@@ -2,7 +2,7 @@
 layout: post
 title: "[Update] Hintergrundbeleuchtung für eine analoge Wanduhr (1)"
 date: 2012-11-25 18:54:18 +0200
-categories: electronic
+categories: electronics
 ---
 Ich habe die Bauteilwahl etwas angepasst und auch den endgültigen Schaltplan fertig gestellt. Beides ist im alten Artikel zu finden:
 

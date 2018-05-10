@@ -2,7 +2,7 @@
 layout: post
 title:  "Robot platform for future development"
 date:   2017-05-29 21:02:00 +0200
-categories: electronic
+categories: electronics
 ---
 Over the last weeks I was building a moving platform. The platform should serve as a base for future development with the Raspberry Pi and openCV.
 

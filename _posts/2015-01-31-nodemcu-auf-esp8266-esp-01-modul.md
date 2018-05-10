@@ -2,7 +2,7 @@
 layout: post
 title: "NodeMcu auf ESP8266  (ESP-01 Modul)"
 date: 2015-01-31 21:52:32 +0200
-categories: electronic
+categories: electronics
 ---
 # [There is an updated article to get the NodeMCU firmware running in the year 2016! >> click me <<](/electronic/2016/01/24/getting-nodemcu-running-on-an-ESP-01-module-in-2016.html)
 

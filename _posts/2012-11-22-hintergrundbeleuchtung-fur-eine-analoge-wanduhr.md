@@ -2,7 +2,7 @@
 layout: post
 title: "Hintergrundbeleuchtung für eine analoge Wanduhr"
 date: 2012-11-22 10:05:01 +0200
-categories: electronic
+categories: electronics
 ---
 Als Brillenträger habe ich Probleme die Uhr im Dunkeln zu erkennen. Da ich aber eine sehr schicke Uhr mit einem gläsernen Ziffernblatt habe, bietet es sich an diese Uhr von hinten zu beleuchten. Um aber die Beleuchtung so einfach wie möglich zu aktivieren, muss eine drahtlose Lösung her. 
 
