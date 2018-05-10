@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bilder Herbsturlaub in Holland 2014
+title: "Bilder Herbsturlaub in Holland 2014"
 date: 2014-12-21 11:53:59 +0200
 categories: photo
 ---

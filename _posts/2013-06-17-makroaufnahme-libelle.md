@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Makroaufnahme Libelle
+title: "Makroaufnahme Libelle"
 date: 2013-06-17 17:22:12 +0200
 categories: photo
 ---
