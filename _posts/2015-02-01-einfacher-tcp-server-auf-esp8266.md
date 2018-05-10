@@ -41,7 +41,7 @@ function main()
         server:listen(80, function(connection) -- Server reagiert auf Port 80
             connection:on("receive", function(connection, payload) -- Verbindung reagiert auf empfangene Daten
                 print(payload) -- Empfangene daten ausgeben
-                connection:send("<p>Hallo Browser, ich bin ein ESP-01 Modul</p>") -- Client eine Meldung schicken
+                connection:send("&lt;p>Hallo Browser, ich bin ein ESP-01 Modul&lt;/p>") -- Client eine Meldung schicken
                 pinStatus = 1 - pinStatus
                 gpio.write(pinLed, pinStatus)
                 connection:close() -- Verbindung trennen

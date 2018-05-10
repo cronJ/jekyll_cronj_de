@@ -4,7 +4,7 @@ title: "NodeMcu auf ESP8266  (ESP-01 Modul)"
 date: 2015-01-31 21:52:32 +0200
 categories: electronic
 ---
-# [There is an updated article to get the NodeMCU firmware running in the year 2016! >> click me <<](/2016/01/24/getting-nodemcu-running-on-an-esp-01-module-in-2016/)
+# [There is an updated article to get the NodeMCU firmware running in the year 2016! >> click me <<](/electronic/2016/01/24/getting-nodemcu-running-on-an-ESP-01-module-in-2016.html)
 
 # Änderungen:
 24.01.2016 - Bild mit (selbst definierten) Pinnummern eingefügt und Signale den Nummern zugeordnet. Hat mich selbst gerade wieder Zeit gekostet, das zusammen zu suchen. 
