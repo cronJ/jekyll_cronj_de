@@ -1,0 +1,45 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.welcome {
+    border: 1px solid #4183C4;
+    border-radius: 10px;
+    background-color: rgba(65, 131, 196, 0.15);
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+.cat-list {
+    margin-bottom: 2em;
+}
+
+.cat-item {
+    display: inline-block; 
+    background: rgba(65, 131, 196, 0.15);
+    padding: 0 .5rem;
+    margin-right: .5rem;
+    border-radius: 10px;
+    color: #4183C4;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-size: 90%;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.cat-item:hover {
+    text-decoration: none;
+    background: #4183C4;
+    color: #fff;
+}
+    
+.cat-list :target:before {
+    content: "";
+    display: block;
+    height: 72px;
+    /* fixed header height*/
+    margin: -72px 0 0;
+    /* negative fixed header height */
+}
