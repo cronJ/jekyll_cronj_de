@@ -6,9 +6,8 @@ layout: default
 <p>Welcome on my website. Feel free to browse.</p>
 
 <p>You can go directly to the latest post here:</p>
-{% for post in site.posts limit:1 %}
+{% assign post = site.posts.first %}
     <a href="{{ post.url }}">{{ post.title }} - <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a>
-{% endfor %}
 </div>
 
 <div class="cat-list">
@@ -36,7 +35,7 @@ layout: default
     {% for post in pages_list %}
       {% if post.title != null %}
       {% if group == null or group == post.group %}
-      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }} - <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+      <li><a href="{{ post.url }}">{{ post.title }} - <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
       {% endif %}
       {% endif %}
     {% endfor %}
