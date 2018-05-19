@@ -30,7 +30,7 @@ Die verwendete Fernbedienung ist von der Firma Sony und gehört zu meinem Blu-Ra
 
 Die einzelnen Kommandos werden 2-3 mal wiederholt. Dabei gibt es eine Pause von 45ms zwischen den Wiederholungen. Um den Befehl der Taste zu bestimmen, habe ich den TSOP1738 mit Spannung versorgt und das Ausgangssignal an mein Oszilloskop angeschlossen. Mit Hilfe der Cursor kann ich dann durch die einzelnen Bits gehen und mir die Zustände aufschreiben. Mein Befehl hat folgenden Aufbau: 
 
-{% highlight text %}
+{% highlight text linenos %}
 Startbit;101.1110;0.1011.0100.0111;
         | Befehl |    Adresse     |
           0x5E        0x0B47
@@ -42,7 +42,7 @@ Wichtig für mich ist nur der Befehl. Ich besitze nur zwei Fernbedienungen und e
 
 Die Verarbeitung des Signals, welches aus dem TSOP1738 kommt, übernimmt ein Atmel ATmega8. Dafür wird die Input Capture Funktion des Timers verwendet. Bei einer fallenden Flanke wird hier eine Variable auf 0 gesetzt und der Timer zählt diese bis zur nächsten fallenden Flanke hoch. Die Zeit die zwischen den beiden Flanken verstreicht, wird dann unterschieden in Startbit, 0 oder 1. Fallende Flanke deshalb, da das Signal aus dem TSOP1738 invertiert ausgegeben wird. Der Timer wird hierfür entsprechend initialisiert: 
     
-{% highlight c %}
+{% highlight c linenos %}
 // Initialize Timer1
 void InitTimer1()
 {
@@ -59,7 +59,7 @@ void InitTimer1()
 
 Die Interrupt Routine sieht so aus: 
     
-{% highlight c %}
+{% highlight c linenos %}
 // Calculate time between two falling edges in the interrupt
 ISR(TIMER1_CAPT_vect)
 {

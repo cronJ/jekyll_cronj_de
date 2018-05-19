@@ -14,7 +14,7 @@ Im Grunde reicht jedes Terminalprogramm, in dem man die Geschwindigkeit der Übe
 
 Wie bei jeder neuen Mikrocontrollerarchitektur lassen wir nun erst einmal unsere LED blinken. 
     
-{% highlight lua %}
+{% highlight lua linenos %}
 ledPin = 3	-- GPIO0
 ledStatus = 0
 

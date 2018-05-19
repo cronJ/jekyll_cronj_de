@@ -6,7 +6,7 @@ categories: electronics
 ---
 Folgender Code erzeugt einen TCP-Server der auf Port 80 hört. Wenn Daten auf dieser Verbindung gesendet werden, schickt er eine Meldung an den verbundenen Client und schaltet die angeschlossene LED. 
     
-{% highlight lua %}
+{% highlight lua linenos %}
 -- Variablendeklaration
 gpio0 = 3
 gpio2 = 4
@@ -52,7 +52,7 @@ end
 
 Beim Aufruf der IP-Adresse über einen Browser versucht dieser per HTTP an eine Webseite zu kommen. Dafür sendet er ein GET-Request was im Modul eine Funktion ausführt, da ja nun Daten empfangen wurden. Und noch eine Version, um die LED per URL zu schalten: 
     
-{% highlight lua %}
+{% highlight lua linenos %}
 -- Variablendeklaration
 gpio0 = 3
 gpio2 = 4

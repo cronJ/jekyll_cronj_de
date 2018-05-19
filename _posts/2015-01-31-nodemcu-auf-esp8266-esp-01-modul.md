@@ -90,7 +90,7 @@ lua: cannot open init.lua>
 
 Für einen einfachen Test wurde eine LED mit Vorwiderstand zwischen GPIO0 und GND geschaltet. Mit folgenden Befehlen kann sie nun über das Terminal gesteuert werden: 
     
-{% highlight lua %}
+{% highlight lua linenos %}
 gpio.mode(3, gpio.OUTPUT) -- GPIO als Ausgang setzen
 gpio.write(3, 1)          -- GPIO HIGH schalten
 gpio.write(3, 0)          -- GPIO LOW schalten
