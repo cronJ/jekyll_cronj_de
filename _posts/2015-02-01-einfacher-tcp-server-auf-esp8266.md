@@ -4,8 +4,8 @@ title: "Einfacher TCP-Server auf ESP8266"
 date: 2015-02-01 15:19:00 +0200
 categories: electronics
 ---
-Folgender Code erzeugt einen TCP-Server der auf Port 80 hört. Wenn Daten auf dieser Verbindung gesendet werden, schickt er eine Meldung an den verbundenen Client und schaltet die angeschlossene LED. 
-    
+Folgender Code erzeugt einen TCP-Server der auf Port 80 hört. Wenn Daten auf dieser Verbindung gesendet werden, schickt er eine Meldung an den verbundenen Client und schaltet die angeschlossene LED.
+
 {% highlight lua linenos %}
 -- Variablendeklaration
 gpio0 = 3
